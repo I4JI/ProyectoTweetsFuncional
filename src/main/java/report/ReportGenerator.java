@@ -1,17 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package report;
 
 import model.Tweet;
 import java.io.*;
 import java.nio.file.*;
 import java.util.List;
+import java.util.function.BiConsumer;
 
 public class ReportGenerator {
-
-    public void guardarTweetsLimpios(List<Tweet> tweets, String rutaSalida){
+    public final BiConsumer<List<Tweet>, String> guardarTweetsLimpios = (tweets, rutaSalida) -> {
         try {
             Path p = Paths.get(rutaSalida);
             Files.createDirectories(p.getParent());
@@ -24,9 +20,9 @@ public class ReportGenerator {
         } catch (IOException e) {
             System.err.println("Error guardando tweets limpios: " + e.getMessage());
         }
-    }
+    };
 
-    public void guardarResumenEstadisticas(String resumen, String rutaSalida){
+    public final BiConsumer<String, String> guardarResumenEstadisticas = (resumen, rutaSalida) -> {
         try {
             Path p = Paths.get(rutaSalida);
             Files.createDirectories(p.getParent());
@@ -34,5 +30,5 @@ public class ReportGenerator {
         } catch (IOException e) {
             System.err.println("Error guardando resumen: " + e.getMessage());
         }
-    }
+    };
 }

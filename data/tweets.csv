@@ -1,0 +1,12 @@
+id,entidad,sentimiento,texto
+1,"Oaxaca","positive","Me encanta la comida de Oaxaca! #sabroso @usuario"
+2,"Veracruz","negative","Servicio pésimo en el puerto... #fail"
+3,"Chiapas","positive","La gente es muy amable y el paisaje increíble!"
+4,"Puebla","neutral","Hoy estuvo tranquilo el clima en Puebla."
+5,"CDMX","negative","Mucho tráfico hoy en la ciudad... #estresante"
+6,"Jalisco","positive","Excelente atención en el restaurante! @cliente"
+7,"Nuevo León","neutral","Día normal, sin novedades importantes."
+8,"Yucatán","positive","Las playas están hermosas!! #vacaciones"
+9,"Sonora","negative","Muy mala experiencia en el aeropuerto @aerolinea"
+10,"Tabasco","neutral","Lluvia ligera durante toda la tarde."
+

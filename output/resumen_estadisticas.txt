@@ -1,0 +1,6 @@
+Promedio longitud (positive): 35.25
+Promedio longitud (negative): 33.67
+Conteo por sentimiento:
+  negative: 3
+  neutral: 3
+  positive: 4

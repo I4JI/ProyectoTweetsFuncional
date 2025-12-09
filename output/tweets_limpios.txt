@@ -1,0 +1,10 @@
+Tweet{id=1, entidad=Oaxaca, sentimiento=positive, texto=ME ENCANTA LA COMIDA DE OAXACA!}
+Tweet{id=2, entidad=Veracruz, sentimiento=negative, texto=SERVICIO PÉSIMO EN EL PUERTO...}
+Tweet{id=3, entidad=Chiapas, sentimiento=positive, texto=LA GENTE ES MUY AMABLE Y EL PAISAJE INCREÍBLE!}
+Tweet{id=4, entidad=Puebla, sentimiento=neutral, texto=HOY ESTUVO TRANQUILO EL CLIMA EN PUEBLA.}
+Tweet{id=5, entidad=CDMX, sentimiento=negative, texto=MUCHO TRÁFICO HOY EN LA CIUDAD...}
+Tweet{id=6, entidad=Jalisco, sentimiento=positive, texto=EXCELENTE ATENCIÓN EN EL RESTAURANTE!}
+Tweet{id=7, entidad=Nuevo León, sentimiento=neutral, texto=DÍA NORMAL, SIN NOVEDADES IMPORTANTES.}
+Tweet{id=8, entidad=Yucatán, sentimiento=positive, texto=LAS PLAYAS ESTÁN HERMOSAS!!}
+Tweet{id=9, entidad=Sonora, sentimiento=negative, texto=MUY MALA EXPERIENCIA EN EL AEROPUERTO}
+Tweet{id=10, entidad=Tabasco, sentimiento=neutral, texto=LLUVIA LIGERA DURANTE TODA LA TARDE.}
